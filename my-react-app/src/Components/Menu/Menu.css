@@ -1,0 +1,32 @@
+.menu-page {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .menu-page h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .table {
+    margin-top: 1rem;
+  }
+  
+  .table th,
+  .table td {
+    font-size: 1.25rem;
+  }
+  
+  .Menu-bg {
+    background-image: url('../img/img4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    border-radius: 8px;
+    color: white; /* To make text readable against the background */
+  }
+  
+  .menu-page h2 {
+    color: white; /* Ensure the heading is visible */
+  }
+  

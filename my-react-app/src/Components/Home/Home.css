@@ -1,0 +1,29 @@
+.home-page {
+    min-height: 100%; /* Ensures the page takes at least the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    text-align: center; /* Centers text within the content-box */
+    padding: 2rem; /* Adds some padding around the content */
+  }
+  
+  .content-box {
+    max-width: 100%; /* Limits the width of the content for better readability */
+  }
+  
+  .content-box h2 {
+    font-size: 6rem; /* Increases the font size of the heading */
+  }
+  
+  .content-box p {
+    font-size: 1.25rem; /* Increases the font size of the paragraph */
+    text-align: justify; /* Justifies the text in the paragraph */
+    line-height: 1.6; /* Increases line height for better readability */
+  }
+  

@@ -1,0 +1,36 @@
+/* Custom CSS to ensure the footer is positioned properly */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body > .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  h5 {
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
